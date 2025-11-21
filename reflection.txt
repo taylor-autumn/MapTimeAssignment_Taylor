@@ -1,0 +1,12 @@
+Write a description for your experimental clock. How is it novel to you and how might it alter the way you track / keep time?
+
+When I was brainstorming different ways to process time, one of my first thgouths was by looking at constellations, specfically zodiac signs because they are very linked to the passage of months in a year. I got to working on this by basing the design in space, and the idea was to have stars in the background, earth rotating, and, of course, the zodiacs passing by. This would give the idea that time is passing by and, as it does, different zodiac constellations float above the earth, which are linked to the passing months in the year.
+
+Describe your design process. Include all three of your design sketches and explain how you’ve ended up choosing one. 
+
+It took me a long time to comprehend how to make this work, especially because I didn't want to create a 100 line if statement and endlessly generate zodiacs. I ended up looking up a lot of videos to somehow change the traveling zodiac sign without always generating a new one and still linking it to millis or seconds. I eventually came to the conclusion to use a bunch of game objects groups and drawn images of the zodiacs, so I drew them all, uploaded them as images, and added them to the group so that I could always access them. I also ended up using millis instead of seconds cause I could easily manipulate them to be faster. The only challenge with the millis was finding a way to loop them so when I generated a new sign it didn't just spawn off screen wherever the millis were. After a lot of labor and brain scratches I finally got it to work and I am happy with the result :).
+
+What’s your overall reflection on this assignment? What have you learned throughout the process of designing an unconventional clock?
+
+I think this assignment was challenging in a good way, I learned about a lot of aspects like game objects, using and manipulating time, and importing my own images into the code. It was also fun to think of time in a non-conventional way and see how it turned out.
+
